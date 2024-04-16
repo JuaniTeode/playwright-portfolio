@@ -11,7 +11,6 @@ export class FeedbackPage {
     readonly clear: Locator
     readonly submit: Locator
     readonly feedbackTitle: Locator
-
     readonly commentText: string
 
     // Init selectors using constructor

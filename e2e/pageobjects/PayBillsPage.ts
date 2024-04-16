@@ -15,7 +15,6 @@ export class PayBillsPage {
     readonly successMessage: Locator;
     readonly successMessageClose: Locator;
 
-
     readonly purchaseForeignCurrency: Locator;
     readonly purchaseAmount: Locator;
     readonly purchaseInDollars: Locator;
