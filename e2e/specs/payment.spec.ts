@@ -74,7 +74,6 @@ test.describe('New Payment', () => {
 
             await expect(payBillsPage.purchaseConversionAmount).toContainText(amount + ' U.S. dollar (USD)')
             await expect(payBillsPage.purchaseConversionAmount).toContainText(currency.currencyValue)
-            // hacer todo y retornar los dos valores para asertar
         }
     })
 
