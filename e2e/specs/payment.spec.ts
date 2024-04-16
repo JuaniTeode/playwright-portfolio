@@ -47,7 +47,7 @@ test.describe('New Payment', () => {
         await expect(payBillsPage.successMessage).toContainText('The payment was successfully submitted');
     });
 
-    test.only('Verify the user can purchase 1000 USD with every currency', async ({ page }) => {
+    test('Verify the user can purchase 1000 USD with every currency', async ({ page }) => {
         
         const currencyData = payBillsManager.generateCurrencyData(currency);
         const amount = '1000.00'
